@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:layout_constraintVertical_chainStyle="packed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/selectedProductText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectedProductPlaceHolder"
+        android:textSize="@dimen/landSmallTextSize"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/totalAmountText"
+        app:layout_constraintRight_toLeftOf="@id/ManagerButton"
+        />
+    <Button
+        android:id="@+id/ManagerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:text="@string/managerButtonPlaceHolder"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/selectedProductText"
+        app:layout_constraintBottom_toTopOf="@id/totalAmountText"
+        />
+
+    <TextView
+        android:id="@+id/totalAmountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/marginSize"
+        android:text="@string/totalPlaceHolder"
+        android:textColor="@color/black"
+        android:textSize="@dimen/landSmallTextSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ManagerButton"
+        app:layout_constraintBottom_toTopOf="@id/ButtonsLayout"/>
+    <TableLayout
+        android:id="@+id/ButtonsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/totalAmountText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/QuantityText"
+        >
+
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            >
+
+            <Button
+                android:id="@+id/Button1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/landButtonSize"
+                android:backgroundTint="@color/blue"
+                android:textSize="@dimen/landButtonTextSize"
+                android:textColor="@color/black"
+                android:text="@string/_1"
+
+                />
+
+            <Button
+                android:id="@+id/Button2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/landButtonSize"
+                android:backgroundTint="@color/blue"
+                android:textSize="@dimen/landButtonTextSize"
+                android:textColor="@color/black"
+                android:text="@string/_2"
+
+                />
+
+            <Button
+                android:id="@+id/Button3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/landButtonSize"
+                android:backgroundTint="@color/blue"
+                android:textSize="@dimen/landButtonTextSize"
+                android:textColor="@color/black"
+                android:text="@string/_3"
+
+                />
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            >
+
+            <Button
+                android:id="@+id/Button4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/landButtonSize"
+                android:backgroundTint="@color/blue"
+                android:textSize="@dimen/landButtonTextSize"
+                android:textColor="@color/black"
+                android:text="@string/_4"
+
+                />
+
+            <Button
+                android:id="@+id/Button5"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/landButtonSize"
+                android:backgroundTint="@color/blue"
+                android:textSize="@dimen/landButtonTextSize"
+                android:textColor="@color/black"
+                android:text="@string/_5"
+
+                />
+
+            <Button
+                android:id="@+id/Button6"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/landButtonSize"
+                android:backgroundTint="@color/blue"
+                android:textSize="@dimen/landButtonTextSize"
+                android:textColor="@color/black"
+                android:text="@string/_6"
+
+                />
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            >
+
+            <Button
+                android:id="@+id/Button7"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/landButtonSize"
+                android:backgroundTint="@color/blue"
+                android:textSize="@dimen/landButtonTextSize"
+                android:textColor="@color/black"
+                android:text="@string/_7"
+
+                />
+
+            <Button
+                android:id="@+id/Button8"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/landButtonSize"
+                android:backgroundTint="@color/blue"
+                android:textSize="@dimen/landButtonTextSize"
+                android:textColor="@color/black"
+                android:text="@string/_8"
+
+                />
+
+            <Button
+                android:id="@+id/Button9"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/landButtonSize"
+                android:backgroundTint="@color/blue"
+                android:textSize="@dimen/landButtonTextSize"
+                android:textColor="@color/black"
+                android:text="@string/_9"
+
+                />
+        </TableRow>
+
+
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            >
+
+            <Button
+                android:id="@+id/ButtonC"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/landButtonSize"
+                android:backgroundTint="@color/blue"
+                android:textSize="@dimen/landButtonTextSize"
+                android:textColor="@color/black"
+                android:text="@string/c"
+
+                />
+
+            <Button
+                android:id="@+id/Button0"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/landButtonSize"
+                android:backgroundTint="@color/blue"
+                android:textSize="@dimen/landButtonTextSize"
+                android:textColor="@color/black"
+                android:text="@string/_0"
+
+                />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+    <TextView
+        android:id="@+id/QuantityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quantityPlaceHolder"
+        android:textSize="@dimen/landSmallTextSize"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/ButtonsLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/marginSize"
+        app:layout_constraintBottom_toTopOf="@id/productList"
+        />
+    <Button
+        android:id="@+id/ButtonBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textSize="@dimen/largeTextSize"
+        android:textColor="@color/white"
+        android:text="@string/buy"
+        app:layout_constraintTop_toBottomOf="@id/totalAmountText"
+        app:layout_constraintBottom_toTopOf="@id/productList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/ButtonsLayout"
+        app:layout_constraintHeight_percent="0.2"
+        android:background="@drawable/button_rectangle"
+        android:layout_marginEnd="@dimen/marginSize"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/QuantityText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

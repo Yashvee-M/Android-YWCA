@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Assignment 2 : CashRegistor</string>
+    <string name="assignmentTitle">Assignment2</string>
+    <string name="selectedProductPlaceHolder">Product Type</string>
+    <string name="totalPlaceHolder">Total</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="c">C</string>
+    <string name="_0">0</string>
+    <string name="buy">Buy</string>
+    <string name="quantityPlaceHolder">Quantity</string>
+    <string name="managerButtonPlaceHolder">Manager</string>
+    <string name="historyPlaceHolder">History</string>
+    <string name="restockPlaceHolder">Restock</string>
+    <string name="newQuantityHint">Enter New Quantity</string>
+    <string name="okButtonText">OK</string>
+    <string name="cancelButtonText">Cancel</string>
+    <string name="enter_new_product_details">Enter new product details:</string>
+    <string name="enter_product_name">Enter Product Name</string>
+    <string name="enter_product_quantity">Enter Product Quantity</string>
+    <string name="enter_product_price">Enter Product Price</string>
+    <string name="saveButtonText">Save</string>
+    <string name="product">Product</string>
+    <string name="backArrowContent">BackArrow</string>
+    <string name="deleteProduct">DeleteProduct</string>
+</resources>

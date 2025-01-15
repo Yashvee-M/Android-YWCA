@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assignment3_QuickNotesApp_Yashvee_Jan10</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <string name="title_activity_view_edit">ViewEditActivity</string>
+</resources>

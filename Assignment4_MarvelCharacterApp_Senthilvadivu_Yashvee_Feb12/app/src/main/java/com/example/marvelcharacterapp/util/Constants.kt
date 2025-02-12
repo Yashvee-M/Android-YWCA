@@ -10,10 +10,8 @@ class Constants {
     companion object{
         const val BASE_URL = "https://gateway.marvel.com"
         val timeStamp = Timestamp(System.currentTimeMillis()).time.toString()
-        const val API_KEY = "9ec4d15f48c56354d168284ccacace70"
-        const val PRIVATE_KEY = "d1097d3ece38c63010f48718225ac5dfb212d139"
-        //const val API_KEY = ""
-        //const val PRIVATE_KEY = ""
+        const val API_KEY = "Enter Your Public Key from Marvel Dev Portal"
+        const val PRIVATE_KEY = "Enter Your Private Key from Marvel Dev Portal"
         const val offset = "0"
         const val limit = 5
 

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MarvelCharacterApp</string>
+    <string name="title_activity_character_detail">CharacterDetailActivity</string>
+    <string name="title_activity_favorite_character">FavoriteCharacterActivity</string>
+    <string name="title_activity_comics_detail">ComicsDetailActivity</string>
+    <string name="title_activity_comic_detail">ComicDetailActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+</resources>
